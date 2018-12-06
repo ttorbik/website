@@ -3,6 +3,10 @@
 Feel free to use the personal portfolio website as a template for your website.
 This site is based off of the template [Miniport](https://html5up.net/miniport)
 
+![alt text](https://github.com/ttorbik/website/tree/master/WebsiteFiles/images/readmeImages/main.png)
+![alt text](https://github.com/ttorbik/website/tree/master/WebsiteFiles/images/readmeImages/work.png)
+![alt text](https://github.com/ttorbik/website/tree/master/WebsiteFiles/images/readmeImages/contact.png)
+
 ## Installation
 
 
