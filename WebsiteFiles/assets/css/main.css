@@ -280,6 +280,7 @@ input, select, textarea {
 				}
 
 		}
+		
 
 /* Row */
 
@@ -1541,7 +1542,8 @@ input, select, textarea {
 		form select:focus,
 		form textarea:focus {
 			background: #fafafa;
-			/* box shadow is the outline around the Contact Me box need to change color at as well*/
+			outline: none; /* this is so there is no border color from browser */
+			/* box shadow is the outline color around contact me boxes */
 			box-shadow: inset 0px 2px 5px 0px rgba(0, 0, 0, 0.05), 0px 1px 0px 0px rgba(255, 255, 255, 0.025), inset 0px 0px 2px 1px #bdc3c7;
 		}
 
@@ -1635,6 +1637,7 @@ input, select, textarea {
 		.image.fit {
 			display: block;
 			width: 100%;
+			max-width: 100%;
 		}
 
 		.image.featured {
@@ -1941,6 +1944,11 @@ input, select, textarea {
 			position: left;
 			width: 10em;
 		}
+		
+		.box.styleLotsText {
+			padding: 3em 2em 3.5em 2em;
+			
+		}
 
 /* Icons */
 /* below changes colors and other things of the icons in section 2, or the section
@@ -2130,7 +2138,7 @@ where I explain my services*/
 		font-size: 0.9em;
 	}
 	
-/* about me image  about image circle and other settings*/
+/* about me*/
 
 	body > article {
 		margin-bottom: 0;
@@ -2164,6 +2172,48 @@ where I explain my services*/
 			#cyclingImg p a {
 				color: inherit;
 			}
+	
+	.aboutContainer {
+		margin: 0 auto;
+		max-width: calc(100% - 50px);
+	}
+	
+	.aboutTextAndImg {
+		height: 600px;
+		width: auto;/*1240px;*/
+		margin: 0 auto;
+	}
+	
+	/*.box.styleAbout {*/
+	
+	/*.box.aboutPara {
+		background: green;
+    	position: absolute;
+    	width: 70%;		
+		max-width: 32em;
+		margin-left: auto !important;
+		margin-right: auto !important;
+	}*/
+			
+	.aboutMeImg {
+    	/*display: inline-block;*/
+    	float: left;
+    	height: 600px;
+    	margin: 0 auto;
+	}
+	
+	.aboutMeText {
+		float: right;
+		width: 68%;
+		height: 600px;
+		margin: 0 auto;
+	}
+	
+	.cyclingList {
+		text-align: left;
+	}
+	
+	
 
 /* Copyright */
 
