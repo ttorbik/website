@@ -1,6 +1,6 @@
 # Personal Website
 
-Feel free to use the personal portfolio website as a template for your website.
+Feel free to use this personal portfolio website as a template for your website.
 
 ![alt text](WebsiteFiles/images/readmeImages/main.png)
 ![alt text](WebsiteFiles/images/readmeImages/work.png)
@@ -17,6 +17,7 @@ Please use comments explaining what each part does as I would like this to be us
 
 ## Credit
 This site is based off of the template [Miniport](https://html5up.net/miniport)
+
 Edited and tweaked by [Thomas Torbik](https://github.com/ttorbik)
 
 ## License
