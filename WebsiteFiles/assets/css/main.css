@@ -2143,9 +2143,10 @@ where I explain my services*/
 	body > article {
 		margin-bottom: 0;
 	}
-
+	
 	#cyclingImg {
-		padding: 10em 0 10em 0;
+		padding-top: 50px;
+		padding-left: 75px;
 		text-align: left;
 	}
 
@@ -2179,34 +2180,26 @@ where I explain my services*/
 	}
 	
 	.aboutTextAndImg {
-		height: 600px;
-		width: auto;/*1240px;*/
-		margin: 0 auto;
+		height: 450px;
 	}
 	
-	/*.box.styleAbout {*/
-	
-	/*.box.aboutPara {
-		background: green;
-    	position: absolute;
-    	width: 70%;		
-		max-width: 32em;
-		margin-left: auto !important;
-		margin-right: auto !important;
-	}*/
+	.box.aboutPara {
+		text-align: center;
+		padding: 40px;
+	}
 			
 	.aboutMeImg {
-    	/*display: inline-block;*/
+		height: 450px;
     	float: left;
-    	height: 600px;
     	margin: 0 auto;
+    	padding-bottom: 20px;
 	}
 	
 	.aboutMeText {
 		float: right;
-		width: 68%;
-		height: 600px;
+		height: 400px;
 		margin: 0 auto;
+		width: 50%;
 	}
 	
 	.cyclingList {
