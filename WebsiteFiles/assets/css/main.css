@@ -2144,6 +2144,11 @@ where I explain my services*/
 		margin-bottom: 0;
 	}
 	
+	#about {
+		padding: 5em 0 5em 0;
+		text-align: center;
+	}
+	
 	#cyclingImg {
 		padding-top: 50px;
 		padding-left: 75px;
@@ -2151,7 +2156,7 @@ where I explain my services*/
 	}
 
 		#cyclingImg .image {
-			border-radius: 100%;
+			border-radius: 50%;
 			width: 25em;
 			height: 25em;
 			margin: 0;
@@ -2180,7 +2185,7 @@ where I explain my services*/
 	}
 	
 	.aboutTextAndImg {
-		height: 450px;
+		height: 600px;
 	}
 	
 	.box.aboutPara {
@@ -2197,9 +2202,10 @@ where I explain my services*/
 	
 	.aboutMeText {
 		float: right;
-		height: 400px;
+		height: auto;/*400px;*/
 		margin: 0 auto;
 		width: 50%;
+		/*width: auto;*/
 	}
 	
 	.cyclingList {
